@@ -11,8 +11,6 @@ Docling does **not** ship a native MLX engine for DeepSeek-OCR. The
 - `api_ollama` (default) → `http://localhost:11434`
 - `api_lmstudio`
 
-On Apple Silicon, run **Ollama** locally; it uses Metal/GPU under the hood.
-Your machine already has `deepseek-ocr:latest`.
 
 ## Setup
 
