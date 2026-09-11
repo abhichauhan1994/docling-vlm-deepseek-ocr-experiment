@@ -1,0 +1,19 @@
+[project]
+name = "docling-vlm-deepseek-ocr-experiment"
+version = "0.1.0"
+description = "Isolated experiment: Docling VlmPipeline + DeepSeek-OCR (Ollama) on FRD_Phase1"
+requires-python = ">=3.11"
+dependencies = [
+  "docling>=2.126.0",
+  "typer>=0.12",
+]
+
+[project.scripts]
+vlm-convert = "convert_frd:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["convert_frd"]
